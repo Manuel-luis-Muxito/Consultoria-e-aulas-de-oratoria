@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+background-repeat: no-repeat;
+text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: white;
+    z-index: 1000;
+}
+
+nav img {
+    width: 130px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    padding: 0 10px;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+nav ul li .menos {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menos:hover {
+    padding: 13px 0;
+    border-top: solid red;
+}
+
+
+
+.Whatssapp {
+    padding: 10px 45px;
+    background-color: rgba(53, 50, 235, 0.692);
+    background-position: center;
+
+background-position: left;
+background-size:40px;
+position: relative;
+
+
+
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.sesoces {
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+    scroll-margin-top: 80px;
+}
+
+
+#inicio {
+    
+    display: flex;
+
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+
+
+
+.sesoces {
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+    scroll-margin-top: 80px;
+}
+
+
+/*  inicio*/
+.palavras{
+
+width: 50%;
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.palavras h1{
+    text-transform: capitalize;
+text-align: start;
+color: blue;
+font-weight:900;
+font-size: 60px;
+}
+.palavras h1{
+    text-transform: capitalize;
+text-align: start;
+color: blue;
+font-weight:900;
+font-size: 60px;
+}
+.palavras p{
+    text-transform: capitalize;
+text-align: start;
+color:black;
+font-weight:900;
+font-size: 18px;
+margin: 5px;
+}
+.conteudo{ margin: 30px 0; 
+    display: flex; 
+   
+      }
+
+
+     .conteudo a {
+    text-transform: capitalize;
+padding: 10px 55px ;
+margin:0 5px ;
+background-color: rgba(0, 38, 255, 0.918);
+border-radius: 30px;
+text-decoration: none;
+color: white;
+background-position: left;
+background-size:40px;
+position: relative;
+}
+
+.iagem{
+   
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.fumdo{
+    width: 90%;
+height: 90%;
+border-radius: 30px;
+background-position: bottom  top;
+background-size: 100%;
+animation: manipula 40s 1s infinite;
+
+}
+
+
+        @keyframes manipula {
+
+            0%,
+            15% {
+
+                background-image:
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.45),
+                        rgba(0, 0, 0, 0.55)
+                    ),
+                    url(./FOTOS/foto1.jpg )
+
+            }
+
+            20%,
+            35% {
+
+                background-image:
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.45),
+                        rgba(0, 0, 0, 0.55)
+                    ),
+                    url(./FOTOS/foto2.jpg);
+
+            }
+
+            40%,
+            55% {
+
+                background-image:
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.45),
+                        rgba(0, 0, 0, 0.55)
+                    ),
+                    url(./FOTOS/foto3.jpg);
+
+            }
+
+            60%,
+            75% {
+
+                background-image:
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.45),
+                        rgba(0, 0, 0, 0.55)
+                    ),
+                    url(./FOTOS/foto4.jpg);
+
+            }
+
+            80%,
+            100% {
+
+                background-image:
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.45),
+                        rgba(0, 0, 0, 0.55)
+                    ),
+                    url(./FOTOS/foto5.jpg);
+                    
+
+            }
+        }
+
+
+
+/* sobre*/
+.sobre h1{
+
+        text-transform: capitalize;
+text-align: start;
+color: blue;
+font-weight:900;
+font-size: 60px;
+}
+.text{
+width: 500px;
+height: 300px;
+
+margin: 5px;
+display: flex;
+flex-direction: column;
+align-items: center ;
+text-align: justify;
+
+color: black;
+font-weight: 900;
+padding: 5px;
+}
+.aqi{
+display: flex;
+padding-top: 10px;
+justify-content: space-around;
+
+}
+.aqi img{
+width: 50%;
+height: 120px;
+margin: 10px;
+border-radius: 30px;
+
+}
+
+/* cursos*/
+#cursus h1{
+        text-transform: capitalize;
+text-align: start;
+color: blue;
+font-weight:900;
+font-size: 60px;
+}
+#cursus h2{
+        text-align: center;
+}
+#cursus img{
+width: 100%;
+height: 120px;
+}
+
+#cursus .cursos{
+float: left;
+width: 300px;
+height: 300px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+margin: 10px;
+text-align: center;
+position: relative;
+border-radius: 10px;
+border-bottom: solid red;
+}
+#cursus a{
+width: 120px;
+position: absolute;
+right: 0;
+padding: 5px;
+color: rgb(255, 255, 255); 
+background-color: rgba(53, 110, 6, 0.863);
+border-radius:30px ;
+animation: identifier 1s 1s infinite;
+font-weight: 900;
+text-transform: capitalize;
+}
+#cursus a:hover{
+animation:none;
+}
+@keyframes identifier {
+    
+10%{
+padding:2 5px ;
+}100%{
+padding: 0 9px ;
+
+}
+
+}
+
+
+
+/* o que dizem*/
+#depoimento h1{
+    text-align: center;
+    font-weight: 900;
+    color: blue;
+    text-transform: capitalize;
+}
+.alunos{
+    float: left;
+background-color: rgba(0, 0, 0, 0.521);
+
+    width: 320px;
+height: 150px;
+position: relative;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 30px;
+margin: 30px;
+padding-left:80px ;
+position: relative;
+
+}
+.alunos .imagem{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background-position: center;
+background-size: cover;
+margin: 10px;
+position: absolute;
+left: 0;
+}
+.alunos {
+color: rgb(255, 254, 254);
+text-transform: capitalize;
+font-weight: 500;
+}
+.estrelas{
+font-size: 24px;
+color: yellow;
+
+}
+
+.nome{
+    color: blue;
+    font-weight: 900;
+}
+
+.sl{ width: 300px; height: 200px;     display:  flex; align-items: center; justify-content:  center;}
+.sl a {
+color: rgb(21, 255, 0);
+font-size: 95px;
+font-weight: 500;
+}
+
+#imagem1{ background-image: url(./FOTOS/manuel_secretario.jpg);}
+#imagem2{background-image: url(./FOTOS/adilson.jpg);}
+#imagem3{background-image: url(./FOTOS/kelven.jpg);}
+#imagem4{background-image: url(./FOTOS/foto4.jpg);}
+#imagem5{background-image: url(./FOTOS/foto5.jpg);}
+#imagem6{background-image: url(./FOTOS/manuel_secretario.jpg);}
+
+/* contacto*/
+
+#contacto {
+padding:0 50px;
+ background-color: rgb(0, 0, 0);
+text-align: center;
+    align-items: center;
+justify-content: center;
+  min-height: 200px;
+  color: aliceblue;
+
+}
+
+#contacto h2 {
+padding: 2px;
+margin: 10px;
+}
+#contacto p {
+padding: 2px;
+margin: 10px;
+font-size: 18px;
+}
+#contacto .a {
+padding: 10px 90px;
+background-color: aqua;
+border-radius: 30px;
+background-position: left;
+background-size: 50px;
+position: relative;
+
+}
+
+.red{
+    width: 100%;
+position: absolute;
+display: flex;
+top: 125px;
+padding: 5px;
+text-align: center;
+justify-content: space-between;
+}
+
+.liga {
+padding: 10px 20px;
+background-color: white;
+background-position: center;
+background-size: cover;
+border-radius: 50%;  
+position: relative;
+}
